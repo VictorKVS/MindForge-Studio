@@ -1,0 +1,29 @@
+project: mindforge_portrait_series_v1
+
+subject:
+  gender: female
+  age: 20-23
+  ethnicity: ginger   # варианты позже: albino | black | asian | mixed
+  hair: long, natural ginger
+  eyes: green
+  skin: fair, detailed skin texture
+
+style:
+  base: cinematic portrait
+  mood: confident, mysterious, artistic
+  lighting: studio soft light, rim light
+  background: dark gradient
+
+composition:
+  camera: 85mm portrait lens
+  framing: head and shoulders
+  angle: eye level
+
+output:
+  count: 8
+  width: 512
+  height: 640
+  steps: 22
+  cfg: 6
+  sampler: DPM++ 2M Karras
+  seed: 12345

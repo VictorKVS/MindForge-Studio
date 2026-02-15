@@ -1,0 +1,45 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# ComfyUI outputs
+output/
+ComfyUI/output/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.json
+*.parquet
+data/
+
+# EXCLUDE AI MODELS (CRITICAL!)
+llm_baza/ai_models/
+sd/lora/
+sd/workflows/*.safetensors
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx

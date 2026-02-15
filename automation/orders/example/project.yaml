@@ -1,0 +1,82 @@
+# project.yaml
+project:
+  id: MF-2026-02-001
+  type: studio_order
+  created_at: 2026-02-07
+  status: draft
+
+client:
+  name: "Personal Brand"
+  contact:
+    email: "client@example.com"
+    telegram: "@client"
+
+intent:
+  category: portrait
+  subtypes:
+    - cinematic
+    - linkedin
+    - avatar
+
+brand_profile:
+  identity:
+    gender: male
+    age_range: 30-40
+    ethnicity: european
+  style:
+    mood: confident, intelligent, calm
+    palette: neutral, dark, cinematic
+    references:
+      - "studio portrait"
+      - "cinematic lighting"
+  consistency:
+    keep_face: true
+    seed_anchor: true
+
+inputs:
+  reference_images:
+    - assets/input/face_01.jpg
+    - assets/input/face_02.jpg
+  text_brief: >
+    Personal brand portrait for professional use.
+    Strong, trustworthy, modern.
+
+generation:
+  engine: auto          # auto | sd_1111 | comfy | local
+  mode: img2img
+  params:
+    width: 512
+    height: 640
+    steps: 20
+    cfg: 6
+    sampler: DPM++ 2M Karras
+    denoise: 0.22
+    seed: 424242
+
+llm:
+  art_director:
+    enabled: true
+    model: qwen2.5-14b-instruct
+    task: style_decision
+
+outputs:
+  expected:
+    images: 5
+    formats: [png, jpg]
+  delivery:
+    telegram: true
+    email: true
+    web_gallery: true
+
+pipeline:
+  stages:
+    - validate
+    - art_direction
+    - generation
+    - curation
+    - delivery
+
+security:
+  antivirus_check: true
+  metadata_clean: true
+  compliance: basic

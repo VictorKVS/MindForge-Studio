@@ -1,0 +1,25 @@
+﻿image_generation:
+  adapter: comfyui
+  comfyui:
+    host: "127.0.0.1"
+    port: 8188
+    model: "v1-5-pruned-emaonly.safetensors"
+    timeout_seconds: 30
+    retry_attempts: 3
+  forge:
+    host: "127.0.0.1"
+    port: 7860
+    enabled: false
+
+security:
+  prompt_filtering:
+    enabled: true
+    blocklist: ["nsfw", "nude", "explicit"]
+  audit_logging:
+    enabled: true
+    retention_days: 90
+
+compliance:
+  healthcare_mode: true
+  dicom_integration: false
+  anonymization_level: "strict"

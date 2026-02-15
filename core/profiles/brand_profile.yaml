@@ -1,0 +1,33 @@
+id: viktor_mindforge
+
+face:
+  reference_images:
+    - assets/images/face_01.jpg
+    - assets/images/face_02.jpg
+  denoising_strength: 0.22
+  seed_anchor: 424242
+
+style:
+  base_prompt: >
+    professional cinematic portrait,
+    sharp focus, studio lighting,
+    high detail, realistic skin texture
+
+  palette:
+    primary: "#0F172A"
+    accent: "#22D3EE"
+
+modes:
+  cinematic:
+    extra_prompt: "dramatic lighting, shallow depth of field"
+    cfg_scale: 6.5
+    steps: 25
+
+  linkedin:
+    extra_prompt: "neutral background, business portrait, soft light"
+    cfg_scale: 5.5
+    steps: 20
+
+output:
+  width: 512
+  height: 640

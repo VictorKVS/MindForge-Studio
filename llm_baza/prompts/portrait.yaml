@@ -1,0 +1,33 @@
+# llm/prompts/portrait.yaml
+cinematic:
+  prompt: >
+    professional cinematic portrait, dramatic studio lighting,
+    shallow depth of field, sharp focus, high detail, film look
+  negative: >
+    low quality, blurry, deformed face, bad anatomy
+  steps: 25
+  cfg: 6
+  width: 512
+  height: 640
+
+linkedin:
+  prompt: >
+    professional corporate headshot, neutral background,
+    soft light, clean look, business portrait
+  negative: >
+    low quality, blurry, distorted face, harsh shadows
+  steps: 20
+  cfg: 5.5
+  width: 512
+  height: 640
+
+avatar:
+  prompt: >
+    clean stylized avatar portrait, minimalistic,
+    soft colors, centered composition
+  negative: >
+    low quality, messy details, artifacts
+  steps: 20
+  cfg: 6
+  width: 512
+  height: 512
