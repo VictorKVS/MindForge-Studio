@@ -1,0 +1,11 @@
+﻿front_facing:
+  tokens: ["front facing", "looking at camera", "direct gaze"]
+  angle: 0
+
+three_quarter:
+  tokens: ["three quarter view", "slight turn", "angled pose"]
+  angle: 45
+
+profile:
+  tokens: ["profile view", "side view", "90 degree angle"]
+  angle: 90

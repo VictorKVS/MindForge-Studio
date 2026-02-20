@@ -1,0 +1,65 @@
+﻿# ========================================
+# Заказ: Премиум черно-белый сайт
+# Тип: website
+# ========================================
+
+order:
+  id: "WEB-PREMIUM-001"
+  type: "website"
+  priority: "high"
+
+website:
+  niche: "premium_portfolio"
+  style: "minimalist_luxury"
+  goal: "showcase_work"
+  pages:
+    - "home"
+    - "portfolio"
+    - "about"
+    - "contact"
+
+content:
+  hero:
+    headline: "TIMELESS ELEGANCE"
+    subheadline: "Premium design studio crafting digital experiences"
+    cta: "Explore Our Work"
+    image: "hero_premium.png"
+  
+  sections:
+    - type: "about"
+      title: "ABOUT US"
+      content: "We create sophisticated digital solutions for discerning clients"
+    
+    - type: "services"
+      title: "OUR SERVICES"
+      items:
+        - "Brand Identity"
+        - "Web Design"
+        - "Art Direction"
+    
+    - type: "testimonials"
+      title: "CLIENT WORDS"
+
+visual:
+  color_scheme: "premium_black_white"
+  typography: "elegant_serif"
+  layout: "minimal_grid"
+  images:
+    - type: "hero"
+      style: "cinematic"
+      count: 1
+    - type: "portfolio"
+      style: "artistic"
+      count: 6
+
+technical:
+  resolution: "512x512"
+  upscale: true
+  target_resolution: "2048x2048"
+  format: "png"
+
+output:
+  folder: "aurora/output/web_premium"
+  figma_json: true
+  html_export: true
+  tailwind: true

@@ -1,0 +1,77 @@
+﻿# ========================================
+# Заказ: Сайт медицинской клиники
+# Тип: website
+# Дата: 2026-02-19
+# ========================================
+
+order:
+  id: "WEB-001"
+  type: "website"
+  priority: "high"
+  deadline: "2026-03-15"
+
+website:
+  niche: "medical_clinic"
+  style: "clean_professional"
+  goal: "attract_clients"
+  pages:
+    - "home"
+    - "services"
+    - "about"
+    - "contact"
+
+content:
+  hero:
+    headline: "Modern Medical Care You Can Trust"
+    subheadline: "Professional healthcare services"
+    cta: "Book Appointment"
+    image: "doctor_team_portrait"
+  
+  sections:
+    - type: "about"
+      title: "About Our Clinic"
+      content: "We provide..."
+    
+    - type: "services"
+      title: "Our Services"
+      items:
+        - "General Checkup"
+        - "Specialist Consultation"
+        - "Emergency Care"
+    
+    - type: "testimonials"
+      title: "Patient Reviews"
+    
+    - type: "contact"
+      title: "Contact Us"
+      info:
+        - "Phone: +1-234-567-8900"
+        - "Email: info@clinic.com"
+        - "Address: 123 Medical St"
+
+visual:
+  color_scheme: "blue_white"
+  typography: "modern_sans"
+  layout: "clean_grid"
+  images:
+    - type: "hero"
+      style: "cinematic"
+      count: 1
+    - type: "team_portraits"
+      style: "business"
+      count: 5
+    - type: "icons"
+      style: "minimal"
+      count: 10
+
+technical:
+  resolution: "512x512"
+  upscale: true
+  target_resolution: "2048x2048"
+  format: "png"
+
+output:
+  folder: "aurora/output/web_001"
+  figma_json: true
+  html_export: true
+  tailwind: true

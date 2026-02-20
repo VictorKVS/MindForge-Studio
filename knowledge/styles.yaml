@@ -1,0 +1,20 @@
+﻿business:
+  prompt: "professional corporate portrait, studio lighting"
+  negative: "casual clothing, bright colors, outdoor"
+  cfg: 5.5
+  steps: 25
+  resolution: "512x512"
+
+cinematic:
+  prompt: "cinematic portrait, dramatic lighting, film still"
+  negative: "flat lighting, amateur photo, low quality"
+  cfg: 6.0
+  steps: 30
+  resolution: "768x768"
+
+fashion:
+  prompt: "high fashion portrait, runway lighting, editorial"
+  negative: "casual wear, poor lighting, amateur"
+  cfg: 5.5
+  steps: 28
+  resolution: "768x768"

@@ -1,46 +1,67 @@
-﻿# MindForge Studio
+﻿#  MindForge Studio
 
-AI-powered portrait generation studio with secure compliance pipeline.
+**Автоматизированная лаборатория по созданию управляемого цифрового контента**
 
-## Features
+---
 
-- Stable Diffusion 1.5 / SDXL image generation via ComfyUI
-- Zero Trust AI Architecture - isolated generation pipeline
-- Compliance-first - audit trails, data encryption, access controls
-- Healthcare-ready - DICOM/PACS integration, 152-FZ compliant
+##  Описание
 
-## Quick Start
+MindForge Studio  это профессиональная AI-студия для генерации:
+-  Изображений (портреты, серии, иллюстрации)
+-  Веб-сайтов (Figma JSON + HTML)
+-  Контента для стоков (Adobe Stock, Shutterstock)
+
+---
+
+##  Архитектура
+MindForge_Studio/
+ knowledge/ # База знаний (YAML)
+ core/ # Ядро системы (LLM агенты)
+ aurora/ # Движок генерации
+ orders/ # Шаблоны заказов
+ exports/ # Экспорт результатов
+
+---
+
+##  Быстрый старт
 
 ```powershell
-# 1. Clone repository
-git clone https://github.com/VictorKVS/MindForge-Studio.git
-cd MindForge-Studio
+cd G:\1\MindForge_Studio
+.\run_studio.ps1
 
-# 2. Install dependencies
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+� Статистика
+Метрика
+Значение
+Успех генерации
+100% (50/50)
+Knowledge Base
+7 YAML файлов
+Web Pipeline
+Figma + HTML
+Stock Ready
+2048x2048
+ Возможности
+Компонент
+Статус
+Knowledge Base
 
-# 3. Configure ComfyUI adapter
-copy config.example.yaml config.yaml
-# Edit config.yaml -> set comfyui.host/port
+Art Director
 
-# 4. Start ComfyUI server (separate window)
-cd G:\1\AI\ComfyUI
-.\run_nvidia_gpu.bat
+Order System
 
-# 5. Run generation test
-python experiments\comfyui\smoke_test.py
-Documentation
-Adapters: ComfyUI Integration (docs/adapters/comfyui.md)
-Security Architecture (docs/security/zero-trust-ai.md)
-Compliance Checklist (docs/compliance/healthcare.md)
-Security & Compliance
-All generations logged with immutable audit trail
-VRAM isolation between requests (Zero Trust principle)
-Automatic PII detection in prompts (OWASP Top-10 for LLMs)
-152-FZ / 187-FZ compliant data handling
-Contributing
-See CONTRIBUTING.md
-License
-Proprietary - All rights reserved (c) Viktor Kulichenko 2026
+Image Pipeline
+
+Quality Control
+
+Web Generator
+
+LLM README
+
+LLM Website
+
+ Лицензия
+MIT License
+<div align="center">
+
+ MindForge Studio  Фабрика синтетических миров
+</div>

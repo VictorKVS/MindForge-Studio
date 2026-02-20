@@ -1,45 +1,66 @@
-﻿# Python
+﻿# ========================================
+# .gitignore для MindForge Studio
+# ========================================
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+.Python
+*.pyc
+
+# Виртуальное окружение
 .venv/
-venv/
 env/
+venv/
 ENV/
-
-# ComfyUI outputs
-output/
-ComfyUI/output/
-
-# Logs
-*.log
-logs/
 
 # IDE
 .vscode/
 .idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+*.swp
+*.swo
+*~
+
+# Логи
+*.log
+logs/
+
+# Данные и результаты
+aurora/output/
+exports/
+batch_output/
+outputs/
+
+# Модели и большие файлы
+*.safetensors
+*.ckpt
+*.pth
+*.bin
+*.onnx
+llm_baza/
+sd/checkpoints/
+sd/lora/
+
+# База данных
+*.db
+*.sqlite
+knowledge/chroma_db/
+
+# Временные файлы
+*.tmp
+*.temp
+~$*.doc*
+~$*.xls*
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Data files
-*.csv
-*.json
-*.parquet
-data/
-
-# EXCLUDE AI MODELS (CRITICAL!)
-llm_baza/ai_models/
-sd/lora/
-sd/workflows/*.safetensors
-*.gguf
-*.safetensors
-*.bin
-*.pt
-*.pth
-*.onnx
+# Секреты
+.env
+*.key
+*.secret
+credentials.json

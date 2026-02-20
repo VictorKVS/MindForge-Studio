@@ -1,0 +1,30 @@
+{
+  "test_name": "high_resolution_progressive_test",
+  "timestamp": 1771589444.2457373,
+  "results": [
+    {
+      "size": 3,
+      "success": 3,
+      "total": 3,
+      "success_rate": 1.0
+    },
+    {
+      "size": 5,
+      "success": 5,
+      "total": 5,
+      "success_rate": 1.0
+    },
+    {
+      "size": 10,
+      "success": 10,
+      "total": 10,
+      "success_rate": 1.0
+    },
+    {
+      "size": 15,
+      "success": 15,
+      "total": 15,
+      "success_rate": 1.0
+    }
+  ]
+}

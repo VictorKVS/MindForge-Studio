@@ -1,0 +1,29 @@
+﻿# Заказ: 10 медицинских портретов врачей
+order_id: medical_doctor_001
+created_at: "2026-02-20"
+type: portrait
+status: pending
+
+count: 10
+quality: standard
+seed_base: 2000
+
+subject:
+  gender: woman
+  age_range: "30-45"
+  ethnicity: caucasian
+
+style:
+  preset: medical
+  clothing: white_coat
+  background: clinical
+
+output:
+  target_folder: "sd/outputs/medical_doctor_001"
+  size: "320x320"
+  format: "png"
+
+meta:
+  intended_use: "Medical website stock photos"
+  keywords: "doctor, medical, healthcare, professional, woman"
+  price_tier: "standard"

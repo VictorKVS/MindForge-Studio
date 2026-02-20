@@ -1,0 +1,49 @@
+﻿# ========================================
+# Заказ: Портрет для стоков
+# Тип: image
+# ========================================
+
+order:
+  id: "IMG-001"
+  type: "image"
+  priority: "high"
+  deadline: "2026-02-25"
+
+content:
+  subject: "professional woman in elegant suit"
+  style: "business"
+  emotion: "confidence"
+  pose: "three_quarter"
+  lighting: "studio"
+  background: "neutral gray"
+
+technical:
+  resolution: "512x512"
+  steps: 25
+  cfg: 5.5
+  seed: -1
+  count: 50
+
+quality:
+  min_score: 0.7
+  auto_reject: true
+  upscale: true
+  target_resolution: "2048x2048"
+
+output:
+  folder: "aurora/output/stock_batch_001"
+  format: "png"
+  metadata: true
+  stock_export: true
+
+stock:
+  platforms:
+    - "Adobe Stock"
+    - "Shutterstock"
+  keywords:
+    - "business"
+    - "portrait"
+    - "professional"
+    - "woman"
+    - "corporate"
+  category: "People"
