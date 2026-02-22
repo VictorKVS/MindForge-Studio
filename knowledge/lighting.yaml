@@ -1,0 +1,11 @@
+﻿studio:
+  tokens: ["studio lighting", "softbox", "professional"]
+  intensity: "medium"
+
+dramatic:
+  tokens: ["dramatic lighting", "chiaroscuro", "strong shadows"]
+  intensity: "high"
+
+natural:
+  tokens: ["natural lighting", "sunlight", "window light"]
+  intensity: "low"

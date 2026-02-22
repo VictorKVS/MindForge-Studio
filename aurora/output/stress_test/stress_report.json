@@ -1,0 +1,54 @@
+{
+  "test_id": "stress_20260220_213153",
+  "total_images": 100,
+  "success": 99,
+  "rejected": 22,
+  "retries": 21,
+  "errors": 1,
+  "total_time_sec": 2557.43,
+  "by_resolution": {
+    "512x512": {
+      "success": 34,
+      "rejected": 1
+    },
+    "768x768": {
+      "success": 33,
+      "rejected": 8
+    },
+    "1024x1024": {
+      "success": 32,
+      "rejected": 13
+    }
+  },
+  "config": {
+    "total_images": 100,
+    "seed_base": 5000,
+    "cool_down_every": 10,
+    "cool_down_seconds": 45,
+    "output_folder": "aurora/output/stress_test",
+    "rejected_folder": "aurora/output/stress_rejected",
+    "min_quality_score": 0.7,
+    "max_retries": 3,
+    "test_resolutions": [
+      {
+        "width": 512,
+        "height": 512,
+        "label": "512x512"
+      },
+      {
+        "width": 768,
+        "height": 768,
+        "label": "768x768"
+      },
+      {
+        "width": 1024,
+        "height": 1024,
+        "label": "1024x1024"
+      }
+    ],
+    "custom_params_base": {
+      "steps": 30,
+      "cfg": 6.0
+    }
+  }
+}

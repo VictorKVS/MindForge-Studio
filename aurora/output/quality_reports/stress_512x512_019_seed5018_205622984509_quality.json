@@ -1,0 +1,13 @@
+{
+  "image": "stress_512x512_019_seed5018_205622984509.png",
+  "timestamp": "2026-02-20T20:56:23.026247",
+  "result": {
+    "score": 0.975,
+    "passed": true,
+    "details": {
+      "sharpness": 1.0,
+      "brightness": 0.416,
+      "resolution": "OK"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿# Заказ: 10 кинематографичных портретов
+order_id: cinematic_headshot_001
+created_at: "2026-02-20"
+type: portrait
+status: pending
+
+count: 10
+quality: high
+seed_base: 3000
+
+subject:
+  gender: man
+  age_range: "35-50"
+  ethnicity: caucasian
+
+style:
+  preset: cinematic
+  clothing: casual
+  background: dramatic
+
+output:
+  target_folder: "sd/outputs/cinematic_headshot_001"
+  size: "384x384"
+  format: "png"
+
+meta:
+  intended_use: "Film portfolio, actor headshots"
+  keywords: "cinematic, dramatic, portrait, actor, film"
+  price_tier: "premium"

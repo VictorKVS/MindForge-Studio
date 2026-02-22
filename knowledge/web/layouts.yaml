@@ -1,0 +1,25 @@
+﻿hero_section:
+  type: "hero"
+  layout: "full_width"
+  elements:
+    - "headline"
+    - "subheadline"
+    - "cta_button"
+  min_height: "600px"
+
+about_section:
+  type: "about"
+  layout: "two_column"
+  elements:
+    - "heading"
+    - "text"
+    - "image"
+  min_height: "400px"
+
+services_section:
+  type: "services"
+  layout: "grid_3"
+  elements:
+    - "heading"
+    - "service_cards"
+  min_height: "500px"

@@ -1,0 +1,92 @@
+{
+  "document": {
+    "name": "TIMELESS ELEGANCE",
+    "pages": [
+      {
+        "name": "Home",
+        "frames": [
+          {
+            "name": "hero_0",
+            "type": "hero",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 800,
+            "content": {
+              "type": "hero",
+              "headline": "TIMELESS ELEGANCE",
+              "subheadline": "Premium design studio crafting digital experiences",
+              "cta": "Explore Our Work",
+              "background_image": "hero_premium.png",
+              "layout": "full_width",
+              "min_height": "800px"
+            }
+          },
+          {
+            "name": "about_1",
+            "type": "about",
+            "x": 0,
+            "y": 800,
+            "width": 1440,
+            "height": 800,
+            "content": {
+              "type": "about",
+              "title": "ABOUT US",
+              "content": "We create sophisticated digital solutions",
+              "items": [],
+              "layout": "minimal_grid"
+            }
+          },
+          {
+            "name": "services_2",
+            "type": "services",
+            "x": 0,
+            "y": 1600,
+            "width": 1440,
+            "height": 800,
+            "content": {
+              "type": "services",
+              "title": "OUR SERVICES",
+              "content": "",
+              "items": [
+                "Brand Identity",
+                "Web Design",
+                "Art Direction"
+              ],
+              "layout": "minimal_grid"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "components": [],
+  "styles": {
+    "colors": {
+      "name": "Premium Monochrome",
+      "primary": "#000000",
+      "secondary": "#1A1A1A",
+      "accent": "#FFFFFF",
+      "background": "#FFFFFF",
+      "text": "#000000",
+      "use_cases": [
+        "luxury",
+        "fashion",
+        "portfolio",
+        "premium"
+      ]
+    },
+    "typography": {
+      "heading": {
+        "font": "Playfair Display",
+        "size": 64,
+        "weight": 700
+      },
+      "body": {
+        "font": "Inter",
+        "size": 16,
+        "weight": 400
+      }
+    }
+  }
+}

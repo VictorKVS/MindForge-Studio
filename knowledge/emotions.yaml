@@ -1,0 +1,19 @@
+﻿calm:
+  tokens: ["calm expression", "soft eyes", "relaxed face"]
+  intensity: 0.5
+  use_cases: ["business", "corporate"]
+
+confidence:
+  tokens: ["confident look", "strong gaze", "self assured"]
+  intensity: 0.8
+  use_cases: ["business", "executive"]
+
+seductive:
+  tokens: ["seductive gaze", "soft lips", "sensual expression"]
+  intensity: 0.7
+  use_cases: ["fashion", "artistic"]
+
+neutral:
+  tokens: ["neutral expression", "calm face", "professional"]
+  intensity: 0.3
+  use_cases: ["passport", "id"]

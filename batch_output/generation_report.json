@@ -1,0 +1,659 @@
+{
+  "total_target": 50,
+  "total_generated": 50,
+  "success_count": 50,
+  "failed_count": 0,
+  "images": [
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00016_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.031376123428345,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_001.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00017_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.046368837356567,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_002.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00018_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.052539348602295,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_003.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00019_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.036489963531494,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_004.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00020_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.048236608505249,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_005.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00021_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.056261777877808,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_006.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00022_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.061633348464966,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_007.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00023_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.051066160202026,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_008.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00024_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.045307397842407,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_009.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00025_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.058136224746704,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_010.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00026_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.04857873916626,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_011.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00027_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.043996095657349,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_012.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00028_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.060349464416504,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_013.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00029_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.061864137649536,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_014.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00030_.png",
+      "metadata": {
+        "template": "business_woman",
+        "category": "business",
+        "generation_time_sec": 4.061062812805176,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_woman_015.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00031_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.0376670360565186,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_001.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00032_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.069991588592529,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_002.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00033_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.050446033477783,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_003.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00034_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.050697326660156,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_004.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00035_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.059147119522095,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_005.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00036_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.037440776824951,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_006.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00037_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.036571979522705,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_007.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00038_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.048404932022095,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_008.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00039_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.046083450317383,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_009.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00040_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.047603368759155,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_010.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00041_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.0403053760528564,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_011.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00042_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.059218168258667,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_012.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00043_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.059000730514526,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_013.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00044_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.037650108337402,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_014.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00045_.png",
+      "metadata": {
+        "template": "business_man",
+        "category": "business",
+        "generation_time_sec": 4.044785261154175,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "business_man_015.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00046_.png",
+      "metadata": {
+        "template": "medical_doctor",
+        "category": "medical",
+        "generation_time_sec": 4.055559158325195,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "medical_doctor_001.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00047_.png",
+      "metadata": {
+        "template": "medical_doctor",
+        "category": "medical",
+        "generation_time_sec": 4.042832851409912,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "medical_doctor_002.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00048_.png",
+      "metadata": {
+        "template": "medical_doctor",
+        "category": "medical",
+        "generation_time_sec": 4.0596911907196045,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "medical_doctor_003.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00049_.png",
+      "metadata": {
+        "template": "medical_doctor",
+        "category": "medical",
+        "generation_time_sec": 4.056829452514648,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "medical_doctor_004.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00050_.png",
+      "metadata": {
+        "template": "medical_doctor",
+        "category": "medical",
+        "generation_time_sec": 4.064020872116089,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "medical_doctor_005.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00051_.png",
+      "metadata": {
+        "template": "medical_doctor",
+        "category": "medical",
+        "generation_time_sec": 4.062862873077393,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "medical_doctor_006.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00052_.png",
+      "metadata": {
+        "template": "medical_doctor",
+        "category": "medical",
+        "generation_time_sec": 4.0548951625823975,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "medical_doctor_007.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00053_.png",
+      "metadata": {
+        "template": "medical_doctor",
+        "category": "medical",
+        "generation_time_sec": 4.050153970718384,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "medical_doctor_008.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00054_.png",
+      "metadata": {
+        "template": "medical_doctor",
+        "category": "medical",
+        "generation_time_sec": 4.047114849090576,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "medical_doctor_009.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00055_.png",
+      "metadata": {
+        "template": "medical_doctor",
+        "category": "medical",
+        "generation_time_sec": 4.065805196762085,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "medical_doctor_010.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00056_.png",
+      "metadata": {
+        "template": "creative_artistic",
+        "category": "creative",
+        "generation_time_sec": 4.0583953857421875,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "creative_artistic_001.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00057_.png",
+      "metadata": {
+        "template": "creative_artistic",
+        "category": "creative",
+        "generation_time_sec": 4.057968854904175,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "creative_artistic_002.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00058_.png",
+      "metadata": {
+        "template": "creative_artistic",
+        "category": "creative",
+        "generation_time_sec": 4.050503730773926,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "creative_artistic_003.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00059_.png",
+      "metadata": {
+        "template": "creative_artistic",
+        "category": "creative",
+        "generation_time_sec": 4.053874492645264,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "creative_artistic_004.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00060_.png",
+      "metadata": {
+        "template": "creative_artistic",
+        "category": "creative",
+        "generation_time_sec": 4.038075685501099,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "creative_artistic_005.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00061_.png",
+      "metadata": {
+        "template": "creative_artistic",
+        "category": "creative",
+        "generation_time_sec": 4.053372859954834,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "creative_artistic_006.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00062_.png",
+      "metadata": {
+        "template": "creative_artistic",
+        "category": "creative",
+        "generation_time_sec": 4.053305387496948,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "creative_artistic_007.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00063_.png",
+      "metadata": {
+        "template": "creative_artistic",
+        "category": "creative",
+        "generation_time_sec": 4.0388548374176025,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "creative_artistic_008.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00064_.png",
+      "metadata": {
+        "template": "creative_artistic",
+        "category": "creative",
+        "generation_time_sec": 4.060171604156494,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "creative_artistic_009.png"
+      },
+      "success": true
+    },
+    {
+      "path": "G:\\1\\AI\\ComfyUI\\ComfyUI\\output\\batch\\portrait_00065_.png",
+      "metadata": {
+        "template": "creative_artistic",
+        "category": "creative",
+        "generation_time_sec": 4.05999231338501,
+        "width": 320,
+        "height": 320,
+        "model": "v1-5-pruned-emaonly.safetensors",
+        "filename": "creative_artistic_010.png"
+      },
+      "success": true
+    }
+  ],
+  "timestamp": 1771509634.2753606
+}

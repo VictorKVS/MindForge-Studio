@@ -1,0 +1,13 @@
+{
+  "image": "image_014_seed3013_220223658000.png",
+  "timestamp": "2026-02-20T22:02:23.710638",
+  "result": {
+    "score": 0.992,
+    "passed": true,
+    "details": {
+      "sharpness": 1.0,
+      "brightness": 0.472,
+      "resolution": "OK"
+    }
+  }
+}

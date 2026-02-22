@@ -1,0 +1,24 @@
+﻿{
+    "generation": {
+        "total_images": 50,
+        "resolution": 512,
+        "steps": 25,
+        "cfg_scale": 5.5,
+        "seed": -1
+    },
+    "quality": {
+        "enforce_face_rules": true,
+        "base_negative": "ugly, blurry, deformed face, bad anatomy",
+        "base_positive": "perfect facial proportions, symmetrical face"
+    },
+    "thermal": {
+        "cool_down_every": 10,
+        "cool_down_seconds": 30,
+        "max_temperature": 85
+    },
+    "output": {
+        "folder": "output/batch_50",
+        "format": "png",
+        "save_metadata": true
+    }
+}

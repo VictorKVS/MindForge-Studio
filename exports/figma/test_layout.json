@@ -1,0 +1,85 @@
+{
+  "document": {
+    "name": "Modern Medical Care You Can Trust",
+    "pages": [
+      {
+        "name": "Home",
+        "frames": [
+          {
+            "name": "hero_0",
+            "type": "hero",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 600,
+            "content": {
+              "type": "hero",
+              "headline": "Modern Medical Care You Can Trust",
+              "subheadline": "Professional healthcare services",
+              "cta": "Book Appointment",
+              "background_image": "hero_image.png",
+              "layout": "full_width",
+              "min_height": "600px"
+            }
+          },
+          {
+            "name": "about_1",
+            "type": "about",
+            "x": 0,
+            "y": 600,
+            "width": 1440,
+            "height": 600,
+            "content": {
+              "type": "about",
+              "title": "About Us",
+              "content": "We provide...",
+              "items": [],
+              "layout": "two_column"
+            }
+          },
+          {
+            "name": "services_2",
+            "type": "services",
+            "x": 0,
+            "y": 1200,
+            "width": 1440,
+            "height": 600,
+            "content": {
+              "type": "services",
+              "title": "Our Services",
+              "content": "",
+              "items": [
+                "Checkup",
+                "Consultation"
+              ],
+              "layout": "two_column"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "components": [],
+  "styles": {
+    "colors": {
+      "name": "Professional Blue",
+      "primary": "#2563EB",
+      "secondary": "#1E40AF",
+      "accent": "#3B82F6",
+      "background": "#FFFFFF",
+      "text": "#1F2937"
+    },
+    "typography": {
+      "heading": {
+        "font": "Inter",
+        "size": 48,
+        "weight": 700
+      },
+      "body": {
+        "font": "Inter",
+        "size": 16,
+        "weight": 400
+      }
+    }
+  }
+}

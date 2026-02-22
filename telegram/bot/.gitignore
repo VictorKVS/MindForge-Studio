@@ -1,0 +1,43 @@
+﻿# ========================================
+# .gitignore  НИКОГДА НЕ КОММИТИТЬ!
+# ========================================
+
+# Secrets
+.env
+*.env
+config.env
+*.key
+*.secret
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Orders & Uploads (user data)
+orders/
+uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

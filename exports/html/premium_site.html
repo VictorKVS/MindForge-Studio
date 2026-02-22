@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMELESS ELEGANCE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#000000',
+                        secondary: '#1A1A1A',
+                        accent: '#FFFFFF',
+                        background: '#FFFFFF',
+                        text: '#000000'
+                    },
+                    fontFamily: {
+                        heading: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-background text-text">
+
+    <!-- Hero Section - Premium -->
+    <section class="min-h-[800px] flex items-center justify-center bg-primary text-accent">
+        <div class="text-center px-8">
+            <h1 class="text-7xl font-bold mb-6 tracking-wider">TIMELESS ELEGANCE</h1>
+            <p class="text-xl mb-12 font-light tracking-wide">Premium design studio crafting digital experiences</p>
+            <button class="border-2 border-accent text-accent hover:bg-accent hover:text-primary px-12 py-4 text-lg font-semibold tracking-wider transition-all duration-300">
+                Explore Our Work
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-24 px-8 bg-background">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-5xl font-bold mb-12 text-center tracking-wider">ABOUT US</h2>
+            <p class="text-xl text-center font-light mb-16">We create sophisticated digital solutions</p>
+
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-24 px-8 bg-background">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-5xl font-bold mb-12 text-center tracking-wider">OUR SERVICES</h2>
+            <p class="text-xl text-center font-light mb-16"></p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+                <div class="text-center p-8 border border-primary">
+                    <h3 class="text-2xl font-semibold mb-4">Brand Identity</h3>
+                </div>
+
+                <div class="text-center p-8 border border-primary">
+                    <h3 class="text-2xl font-semibold mb-4">Web Design</h3>
+                </div>
+
+                <div class="text-center p-8 border border-primary">
+                    <h3 class="text-2xl font-semibold mb-4">Art Direction</h3>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-accent py-12 px-8">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-lg font-light"> 2026 Premium Design Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
