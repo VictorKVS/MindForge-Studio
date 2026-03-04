@@ -1,62 +1,98 @@
-﻿# ========================================
-# .gitignore  НИКОГДА НЕ КОММИТИТЬ!
-# ========================================
+﻿# 
+# MINDFORGE STUDIO  .GITIGNORE
+# Исключаем ВСЕ большие файлы и чувствительные данные
+# 
 
-# Secrets
-.env
-*.env
-config.env
-*.key
-*.secret
+#  AI МОДЕЛИ (НЕ загружать в Git!) 
+*.pt
+*.pth
+*.gguf
+*.safetensors
+*.ckpt
+*.bin
+*.onnx
+*.pb
+*.h5
+*.pkl
+*.model
+llm_baza/
+models/
+model_cache/
+ComfyUI/models/
+llm_models/
 
-# Database
+#  СГЕНЕРИРОВАННЫЙ КОНТЕНТ 
+aurora/output/
+uploads/
+outputs/
+generated/
+*.jpg
+*.png
+*.gif
+*.mp4
+*.avi
+!aurora/output/.gitkeep
+!uploads/.gitkeep
+!outputs/.gitkeep
+
+#  БАЗЫ ДАННЫХ 
 *.db
 *.sqlite
 *.sqlite3
+bot_database.db
+knowledge_base.db
+!*.db.example
 
-# Logs
+#  ЛОГИ 
 logs/
 *.log
+audits/
+!logs/.gitkeep
 
-# Orders & Uploads (user data)
-orders/
-uploads/
+#  КОНФИГУРАЦИЯ С СЕКРЕТАМИ 
+.env
+.env.local
+.env.production
+*.key
+*.pem
+*.secret
+credentials.json
+service_account.json
 
-# Python
+#  PYTHON 
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+venv/
 .venv/
 env/
+ENV/
+*.egg-info/
+dist/
+build/
 
-# ========================================
-# КРИТИЧНО: Большие файлы (МОДЕЛИ)
-# ========================================
-*.safetensors
-*.ckpt
-*.pth
-*.bin
-*.onnx
-*.gguf
-*.pt
-*.vae
-
-# Папки с моделями
-llm_baza/
-sd/checkpoints/
-sd/lora/
-sd/vae/
-sd/outputs/
-
-# IDE
+#  IDE 
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
-# OS
+#  OS 
 .DS_Store
 Thumbs.db
 desktop.ini
+
+#  TESTS & REPORTS 
+reports/*.html
+reports/*.xml
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+#  DOCUMENTATION 
+docs/build/
+*.ipynb_checkpoints
